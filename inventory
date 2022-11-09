@@ -1,0 +1,6 @@
+[all]
+SU00986
+
+[all:vars]
+ansible_user=ansibleuser
+ansible_become=true
