@@ -2,7 +2,7 @@
 - name: setup webserver
   hosts: all
   become: true
-    tasks:
+  tasks:
     - name: httpd installed
       ansible.builtin.yum:
         name: httpd
