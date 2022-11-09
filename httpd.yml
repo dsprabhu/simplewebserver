@@ -12,7 +12,7 @@
       ansible.builtin.copy:
         dest: /var/www/html/index.html
         content: |
-          Custom Web Page
+          This is a custom webpage!
 
     - name: httpd service enabled
       ansible.builtin.service:
