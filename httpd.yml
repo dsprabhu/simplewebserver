@@ -12,7 +12,7 @@
     - name: custom index.html
       ansible.builtin.copy:
         dest: /var/www/html/index.html
-        content: "{{ custom.content }}"
+        content: "{{ custom_content }}"
 
     - name: httpd service enabled
       ansible.builtin.service:
